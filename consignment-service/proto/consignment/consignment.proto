@@ -1,4 +1,4 @@
-syntax = "poto3";
+syntax = "proto3";
 
 service ShippingService {
   rpc CreateConsignment(Consignment) returns (Response) {}
